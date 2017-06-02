@@ -1,0 +1,27 @@
+/*
+Default style for WP-PageNavi plugin
+
+http://wordpress.org/extend/plugins/wp-pagenavi/
+*/
+
+
+.wp-pagenavi {
+	font-size:1.2em;
+	
+	line-height:100%;
+}
+.wp-pagenavi a,
+.wp-pagenavi span {
+	display:inline-block;
+		//display:inline;
+		//zoom:1;
+	
+	margin:0 0.2em 0 0.1em;
+	padding:0.3em 0.5em;
+}
+.wp-pagenavi a:hover {
+	color:#BFBFBF;
+	text-shadow:0 0 1px #BFBFBF;
+	background:#3c3c3c;
+}
+.wp-pagenavi .current {background:#3c3c3c;}
